@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Student Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="panel auth-panel">
+        <p class="eyebrow">STUDENT LIFE, SMARTER MONEY</p>
+        <h1>Create Account</h1>
+        <p class="subtitle">Sign up to track your monthly budget.</p>
+
+        <form id="registerForm">
+            <label for="regUsername">Username</label>
+            <input type="text" id="regUsername" placeholder="Choose a username" required>
+
+            <label for="regEmail">Email Address</label>
+            <input type="email" id="regEmail" placeholder="Enter your email address" required>
+
+            <label for="regPassword">Password</label>
+            <input type="password" id="regPassword" placeholder="Create a password" required>
+
+            <button type="submit" class="primary-btn">Register</button>
+            <p id="regMessage" class="auth-message"></p>
+        </form>
+
+        <p class="auth-switch">
+            Already have an account? <a href="login.html">Log in here</a>
+        </p>
+    </div>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
