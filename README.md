@@ -55,7 +55,7 @@ Download the project files and place them in a single project folder.
 
 ### Step 5: Open the Application
 
-After starting the Flask server, open a web browser and visit:
+After starting the Flask server, open a web browser and visit:https://shamith-sathwik.github.io/CSP-project---Student-expense-tracker/
 
 ## How to Use the Application
 
