@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Recorded Accounts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div>
+        <p class="eyebrow">ADMINISTRATOR PORTAL</p>
+        <h1>Recorded Accounts</h1>
+        <p class="subtitle">View all registered student accounts in the database.</p>
+    </div>
+
+    <div class="user-control">
+        <span id="adminDisplay">👤 Admin</span>
+        <button id="adminLogoutBtn" type="button">Logout</button>
+    </div>
+</header>
+
+<main class="admin-main">
+    <section class="panel">
+        <div class="admin-header-row">
+            <h2>Registered Users (<span id="userCount">0</span>)</h2>
+            <button id="refreshUsersBtn" type="button">Refresh List</button>
+        </div>
+
+        <div class="table-container">
+            <table class="accounts-table">
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Username</th>
+                        <th>Email Address</th>
+                        <th>Password</th>
+                        <th>Expenses Logged</th>
+                    </tr>
+                </thead>
+                <tbody id="accountsTableBody"></tbody>
+            </table>
+        </div>
+
+        <p id="noAccountsState" hidden>No registered accounts found.</p>
+    </section>
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>
