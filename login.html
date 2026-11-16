@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Student Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <div class="panel auth-panel">
+        <p class="eyebrow">STUDENT LIFE, SMARTER MONEY</p>
+        <h1>Welcome Back</h1>
+        <p class="subtitle">Log in to manage your expenses.</p>
+
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="primary-btn">Log In</button>
+            <p id="loginMessage" class="auth-message"></p>
+        </form>
+
+        <p class="auth-switch">
+            Don't have an account? <a href="register.html">Register here</a>
+        </p>
+    </div>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
